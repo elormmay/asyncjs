@@ -26,9 +26,9 @@
 //     console.log(`2nd_Promise ${val}`);
 // });
 
-// https://www.d-riskalert.com/en/api/allinc/
 
-let url = "https://www.d-riskalert.com/en/api/allinc/";
+
+let url = "";
 
 let d_risk = fetch(url)
   .then((response) => response.json())
